@@ -1,3 +1,4 @@
+# Save the following code in a file named chatbot_ui.py
 import tkinter as tk
 from tkinter import scrolledtext, simpledialog, messagebox
 import requests
@@ -136,14 +137,4 @@ send_button = tk.Button(root, text="Send", command=respond)
 send_button.pack(padx=10, pady=5)
 
 # Create service options button
-service_button = tk.Button(root, text="Show Service Options", command=display_service_options)
-service_button.pack(padx=10, pady=5)
-
-# Bind Enter key to send button
-root.bind('<Return>', lambda event: respond())
-
-# Display the welcome message when the app starts
-display_welcome_message()
-
-# Run the Tkinter event loop
-root.mainloop()
+service_button = tk.Button(root, text="Show Service Options", command=display_service_options
