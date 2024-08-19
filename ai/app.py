@@ -9,7 +9,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///chatbot.db'
 db = SQLAlchemy(app)
 
 # Initialize OpenAI
-openai.api_key = 'YOUR_OPENAI_API_KEY'
+openai.api_key = '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'
 
 # Define database models
 class User(db.Model):
