@@ -1,3 +1,4 @@
+# Save the following code in a file named app.py
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 import openai
